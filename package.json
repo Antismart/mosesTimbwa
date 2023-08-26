@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{Antismart}.github.io/{mosesTimbwa}'",
+    "build-gh": "parcel build --public-url 'https://Antismart.github.io/mosesTimbwa'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
